@@ -108,10 +108,20 @@ ul.flowerlist li:hover {
   border: 2px dotted #8468B3;
 }
 
+img.flower {
+  height: 18rem;
+  padding-top: 2rem;
+}
+
 ul.line li {
   display: inline-block;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+ul.line img {
+  height: 17rem;
+  padding-top: 2rem;
 }
 
 article {
