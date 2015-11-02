@@ -6,7 +6,8 @@ body {
   width: 90%;
   background-color: #EEF3FA;
   margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  line-height: 1.1rem;
 }
 
 ul {
@@ -22,10 +23,27 @@ h1.pageheading {
   padding-bottom: 2%;
 }
 
-h2 {
+h2 { 
   color: #937BBB;
   padding-top: none;
   padding-bottom: .5rem;
+}
+
+h3 {
+  color: white;
+  padding-top: none;
+  padding-bottom: .75rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+h3:hover {
+  color: #937BBB;
+  background-color: white;
+  padding-top: none;
+  padding-bottom: .75rem;
+  text-align: center;
+  font-size: 1rem;
 }
 
 ul.topnav {
@@ -65,6 +83,31 @@ ul.photolist li {
   font-weight: 600;
 }
 
+ul.flowerlist {
+  color: white;
+  margin: auto;
+}
+
+ul.flowerlist li {
+  text-align: center;
+  display: block;
+  padding-top: 5.2rem;
+  padding-bottom: .5rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  height: 7rem;
+  width: 7rem;
+  border: 1px solid #8468B3;
+}
+
+ul.flowerlist li:hover {
+  height: 8rem;
+  width: 7rem;
+  border: 2px dotted #8468B3;
+}
+
 ul.line li {
   display: inline-block;
   padding-left: 1rem;
@@ -79,10 +122,6 @@ article {
   padding: 7%;
   padding-top: 5%;
   background-color: #E1E4E9;
-}
-
-article.page {
-  width: 100%;
 }
 
 article p {
@@ -106,6 +145,19 @@ footer li {
 
 footer li img {
   width: 100%;
+}
+
+aside.fruitwarning p {
+  padding-top: 4%;
+  font-size: .7em;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+  
+aside.fruitwarning p:hover {
+  color: white;
+  background-color: #8468B3;
 }
 
 a:link {
